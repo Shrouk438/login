@@ -1,0 +1,73 @@
+body {
+  background-color: #24353f;
+}
+/* input{
+    width: 100%;
+} */
+.container {
+  width: 60%;
+  background-color: #24353f;
+  box-shadow: 5px 5px 5px 13px rgba(0, 0, 0, 0.4);
+}
+.form-control {
+  border-radius: 4px !important;
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  /* border-color:  ; */
+  border: 2px solid #03a9f4;
+  outline: 0;
+  box-shadow: 0 0 0 0px;
+  border-radius: 4px !important;
+}
+
+input {
+  border: 2px rgba(255, 255, 255, 0.773) solid ;
+  background-color: rgba(36, 53, 63, 0.4) !important;
+}
+input::placeholder{
+    color: gray !important;
+}
+#three::placeholder{
+    color:#17a2b8 !important ;
+}
+#three:hover::placeholder{
+    color: white !important;
+}
+
+h1 {
+  color: #17a2b8;
+}
+#three {
+  cursor: pointer;
+}
+#three {
+  border: 2px solid #17a2b8;
+
+  transition: all 0.5;
+}
+
+#three:hover {
+  background-color: #17a2b8 !important;
+}
+p {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1.h{
+    background-color: #24353f;
+    box-shadow: 5px 5px 5px 13px rgba(0, 0, 0, 0.4);
+    padding: 40px 300px;
+text-align: center;
+}
+.text{
+    background-color: #24353f;
+    box-shadow: 5px 5px 5px 13px rgba(0, 0, 0, 0.4);
+}
